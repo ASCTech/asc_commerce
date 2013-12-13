@@ -118,6 +118,7 @@ features[user_permission][] = view own commerce_product entities
 features[user_permission][] = view own commerce_product entities of bundle conference_camp
 features[user_permission][] = view own commerce_product entities of bundle dvd
 features[user_permission][] = view payments
+features[user_role][] = Store Manager
 features[variable][] = additional_settings__active_tab_product_display
 features[variable][] = ant_pattern_product_display
 features[variable][] = ant_php_product_display
