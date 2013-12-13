@@ -26,7 +26,7 @@ function asc_commerce_default_fe_block_settings() {
         'region' => 'sidebar',
         'status' => '1',
         'theme' => 'q7',
-        'weight' => '-21',
+        'weight' => '-24',
       ),
     ),
     'title' => '',
