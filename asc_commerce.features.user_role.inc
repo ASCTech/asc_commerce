@@ -13,7 +13,7 @@ function asc_commerce_user_default_roles() {
   // Exported role: Store Manager.
   $roles['Store Manager'] = array(
     'name' => 'Store Manager',
-    'weight' => '5',
+    'weight' => 5,
   );
 
   return $roles;
