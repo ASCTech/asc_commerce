@@ -16,7 +16,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
       'anonymous user' => 'anonymous user',
     ),
     'module' => 'commerce_checkout',
@@ -28,7 +27,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_checkout',
   );
@@ -39,7 +37,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_customer',
   );
@@ -50,7 +47,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_order',
   );
@@ -61,7 +57,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_product',
   );
@@ -72,7 +67,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_customer',
   );
@@ -83,7 +77,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_payment',
   );
@@ -94,7 +87,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_payment',
   );
@@ -105,7 +97,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_product',
   );
@@ -116,7 +107,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_tax_ui',
   );
@@ -127,7 +117,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_order',
   );
@@ -138,7 +127,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce',
   );
@@ -149,7 +137,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_customer',
   );
@@ -160,7 +147,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_customer',
   );
@@ -171,7 +157,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_order',
   );
@@ -182,7 +167,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_order',
   );
@@ -193,27 +177,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
-    ),
-    'module' => 'commerce_product',
-  );
-
-  // Exported permission: 'create commerce_product entities of bundle conference_camp'.
-  $permissions['create commerce_product entities of bundle conference_camp'] = array(
-    'name' => 'create commerce_product entities of bundle conference_camp',
-    'roles' => array(
-      'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
-    ),
-    'module' => 'commerce_product',
-  );
-
-  // Exported permission: 'create commerce_product entities of bundle dvd'.
-  $permissions['create commerce_product entities of bundle dvd'] = array(
-    'name' => 'create commerce_product entities of bundle dvd',
-    'roles' => array(
-      'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_product',
   );
@@ -224,7 +187,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_payment',
   );
@@ -234,7 +196,6 @@ function asc_commerce_user_default_permissions() {
     'name' => 'create product_display content',
     'roles' => array(
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'node',
   );
@@ -244,7 +205,6 @@ function asc_commerce_user_default_permissions() {
     'name' => 'delete any product_display content',
     'roles' => array(
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'node',
   );
@@ -254,7 +214,6 @@ function asc_commerce_user_default_permissions() {
     'name' => 'delete own product_display content',
     'roles' => array(
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'node',
   );
@@ -265,7 +224,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_payment',
   );
@@ -276,7 +234,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_customer',
   );
@@ -287,7 +244,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_customer',
   );
@@ -298,7 +254,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_order',
   );
@@ -309,7 +264,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_order',
   );
@@ -320,27 +274,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
-    ),
-    'module' => 'commerce_product',
-  );
-
-  // Exported permission: 'edit any commerce_product entity of bundle conference_camp'.
-  $permissions['edit any commerce_product entity of bundle conference_camp'] = array(
-    'name' => 'edit any commerce_product entity of bundle conference_camp',
-    'roles' => array(
-      'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
-    ),
-    'module' => 'commerce_product',
-  );
-
-  // Exported permission: 'edit any commerce_product entity of bundle dvd'.
-  $permissions['edit any commerce_product entity of bundle dvd'] = array(
-    'name' => 'edit any commerce_product entity of bundle dvd',
-    'roles' => array(
-      'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_product',
   );
@@ -350,7 +283,6 @@ function asc_commerce_user_default_permissions() {
     'name' => 'edit any product_display content',
     'roles' => array(
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'node',
   );
@@ -361,7 +293,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_customer',
   );
@@ -372,7 +303,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_customer',
   );
@@ -383,7 +313,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_order',
   );
@@ -394,7 +323,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_order',
   );
@@ -405,27 +333,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
-    ),
-    'module' => 'commerce_product',
-  );
-
-  // Exported permission: 'edit own commerce_product entities of bundle conference_camp'.
-  $permissions['edit own commerce_product entities of bundle conference_camp'] = array(
-    'name' => 'edit own commerce_product entities of bundle conference_camp',
-    'roles' => array(
-      'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
-    ),
-    'module' => 'commerce_product',
-  );
-
-  // Exported permission: 'edit own commerce_product entities of bundle dvd'.
-  $permissions['edit own commerce_product entities of bundle dvd'] = array(
-    'name' => 'edit own commerce_product entities of bundle dvd',
-    'roles' => array(
-      'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_product',
   );
@@ -435,7 +342,6 @@ function asc_commerce_user_default_permissions() {
     'name' => 'edit own product_display content',
     'roles' => array(
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'node',
   );
@@ -446,7 +352,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_payment',
   );
@@ -457,7 +362,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_customer',
   );
@@ -468,7 +372,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_customer',
   );
@@ -479,7 +382,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_order',
   );
@@ -490,7 +392,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_order',
   );
@@ -501,28 +402,7 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
       'anonymous user' => 'anonymous user',
-    ),
-    'module' => 'commerce_product',
-  );
-
-  // Exported permission: 'view any commerce_product entity of bundle conference_camp'.
-  $permissions['view any commerce_product entity of bundle conference_camp'] = array(
-    'name' => 'view any commerce_product entity of bundle conference_camp',
-    'roles' => array(
-      'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
-    ),
-    'module' => 'commerce_product',
-  );
-
-  // Exported permission: 'view any commerce_product entity of bundle dvd'.
-  $permissions['view any commerce_product entity of bundle dvd'] = array(
-    'name' => 'view any commerce_product entity of bundle dvd',
-    'roles' => array(
-      'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_product',
   );
@@ -533,7 +413,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_customer',
   );
@@ -544,7 +423,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_customer',
   );
@@ -555,7 +433,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_order',
   );
@@ -566,7 +443,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_order',
   );
@@ -577,27 +453,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
-    ),
-    'module' => 'commerce_product',
-  );
-
-  // Exported permission: 'view own commerce_product entities of bundle conference_camp'.
-  $permissions['view own commerce_product entities of bundle conference_camp'] = array(
-    'name' => 'view own commerce_product entities of bundle conference_camp',
-    'roles' => array(
-      'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
-    ),
-    'module' => 'commerce_product',
-  );
-
-  // Exported permission: 'view own commerce_product entities of bundle dvd'.
-  $permissions['view own commerce_product entities of bundle dvd'] = array(
-    'name' => 'view own commerce_product entities of bundle dvd',
-    'roles' => array(
-      'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_product',
   );
@@ -608,7 +463,6 @@ function asc_commerce_user_default_permissions() {
     'roles' => array(
       'Content Editor' => 'Content Editor',
       'Site Administrator' => 'Site Administrator',
-      'Store Manager' => 'Store Manager',
     ),
     'module' => 'commerce_payment',
   );
